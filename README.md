@@ -9,11 +9,10 @@ Feel free to use this in your *private* oder even your *commercial* projects
 Make sure to check this out:
 
 **LOXONE**
-[Loxone Website](https://loxone.com)
+To make your home a real smart home visit [Loxone Website](https://loxone.com) to find your Loxone-Partner.
 
 **Shelly**
-[Shelly API](https://shelly-api-docs.shelly.cloud/)
-[Shelly Shop](https://www.shelly.com/de/products/shop)
+For further information check out the official [Shelly API](https://shelly-api-docs.shelly.cloud/). To buy your own Shelly components, visit [Shelly Shop](https://www.shelly.com/de/products/shop).
 
 **Thats Me**
 [Website](https://wiehart.de)
