@@ -6,14 +6,15 @@ Feel free to use this in your *private* oder even your *commercial* projects
 ### Thanks :)
 
 
-Make sure to check this out:
 
-##### LOXONE
-To make your home a real smart home visit [Loxone Website](https://loxone.com) to find your Loxone-Partner.
+*Make sure to check this out:*
 
-##### Shelly
-For further information check out the official [Shelly API](https://shelly-api-docs.shelly.cloud/). To buy your own Shelly components, visit [Shelly Shop](https://www.shelly.com/de/products/shop).
+#### :green_heart: LOXONE
+To make your home a real smart home visit the [Loxone Website](https://loxone.com) to find your Loxone-Partner.
 
-##### Thats Me
+#### :blue_heart: Shelly
+For further technical information check out the official [Shelly API](https://shelly-api-docs.shelly.cloud/). To buy your own Shelly components, visit the [Shelly Shop](https://www.shelly.com/de/products/shop).
+
+#### :v: Thats Me
 [Website](https://wiehart.de)<br />
 **Discord:** janniswiehart
