@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VirtualInUdp Title="Shelly Dimmer 2" Comment="" Address="192.168.123.45" Port="7123">
+	<Info templateType="1" minVersion="15020930"/>
+	<VirtualInUdpCmd Title="Current dimmvalue" Comment="" Address="" Check="[0,5101,\v" Signed="false" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="100" DestValHigh="100" DefVal="0" MinVal="0" MaxVal="100" Unit="&lt;v.1&gt;%" HintText=""/>
+	<VirtualInUdpCmd Title="Input 1" Comment="" Address="" Check="[0,2101,\v" Signed="false" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="100" DestValHigh="100" DefVal="0" MinVal="0" MaxVal="1" Unit="&lt;v&gt;" HintText=""/>
+	<VirtualInUdpCmd Title="Input 2" Comment="" Address="" Check="[0,2201,\v" Signed="false" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="100" DestValHigh="100" DefVal="0" MinVal="0" MaxVal="1" Unit="&lt;v&gt;" HintText=""/>
+	<VirtualInUdpCmd Title="Power" Comment="" Address="" Check="[0,4101,\v" Signed="true" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="1000" DestValHigh="1" DefVal="0" MinVal="-10000" MaxVal="10000" Unit="&lt;v.3&gt;kW" HintText=""/>
+	<VirtualInUdpCmd Title="Current relay state" Comment="" Address="" Check="[0,1101,\v" Signed="false" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="100" DestValHigh="100" DefVal="0" MinVal="0" MaxVal="1" Unit="&lt;v&gt;" HintText=""/>
+</VirtualInUdp>
