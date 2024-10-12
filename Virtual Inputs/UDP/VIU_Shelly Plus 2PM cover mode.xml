@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VirtualInUdp Title="Shelly Plus 2PM cover mode" Comment="" Address="192.168.123.45" Port="7123">
+	<Info templateType="1" minVersion="15020930"/>
+	<VirtualInUdpCmd Title="Power" Comment="" Address="" Check="&quot;apower&quot;:\v" Signed="true" Analog="true" SourceValLow="1000" DestValLow="1" SourceValHigh="10000" DestValHigh="10" DefVal="0" MinVal="-10000" MaxVal="10000" Unit="&lt;v.3&gt;kW" HintText=""/>
+	<VirtualInUdpCmd Title="Total Energy" Comment="" Address="" Check="&quot;aenergy&quot;:\i&quot;total&quot;:\i\v" Signed="true" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="1000" DestValHigh="1" DefVal="0" MinVal="-10000" MaxVal="10000" Unit="&lt;v.3&gt;kWh" HintText=""/>
+	<VirtualInUdpCmd Title="Current position" Comment="" Address="" Check="&quot;current_pos&quot;:\v" Signed="true" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="100" DestValHigh="100" DefVal="0" MinVal="-10000" MaxVal="10000" Unit="&lt;v.1&gt;" HintText=""/>
+	<VirtualInUdpCmd Title="SW1 on" Comment="" Address="" Check="&quot;input:0&quot;:{&quot;id&quot;:0,&quot;state&quot;:true" Signed="true" Analog="false" SourceValLow="0" DestValLow="0" SourceValHigh="100" DestValHigh="100" DefVal="0" MinVal="-10000" MaxVal="10000" Unit="" HintText=""/>
+	<VirtualInUdpCmd Title="SW1 off" Comment="" Address="" Check="&quot;input:0&quot;:{&quot;id&quot;:0,&quot;state&quot;:false" Signed="true" Analog="false" SourceValLow="0" DestValLow="0" SourceValHigh="100" DestValHigh="100" DefVal="0" MinVal="-10000" MaxVal="10000" Unit="" HintText=""/>
+	<VirtualInUdpCmd Title="SW2 on" Comment="" Address="" Check="&quot;input:1&quot;:{&quot;id&quot;:1,&quot;state&quot;:true" Signed="true" Analog="false" SourceValLow="0" DestValLow="0" SourceValHigh="100" DestValHigh="100" DefVal="0" MinVal="-10000" MaxVal="10000" Unit="" HintText=""/>
+	<VirtualInUdpCmd Title="SW2 off" Comment="" Address="" Check="&quot;input:1&quot;:{&quot;id&quot;:1,&quot;state&quot;:false" Signed="true" Analog="false" SourceValLow="0" DestValLow="0" SourceValHigh="100" DestValHigh="100" DefVal="0" MinVal="-10000" MaxVal="10000" Unit="" HintText=""/>
+</VirtualInUdp>
