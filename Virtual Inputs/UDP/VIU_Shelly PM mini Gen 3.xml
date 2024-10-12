@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VirtualInUdp Title="Shelly PM mini gen3" Comment="" Address="192.168.123.45" Port="7123">
+	<Info templateType="1" minVersion="15020930"/>
+	<VirtualInUdpCmd Title="Total Energy" Comment="" Address="" Check="&quot;aenergy&quot;:\i&quot;total&quot;:\i\v" Signed="true" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="1000" DestValHigh="1" DefVal="0" MinVal="-10000" MaxVal="10000" Unit="&lt;v.3&gt;kWh" HintText=""/>
+	<VirtualInUdpCmd Title="Power Consumption" Comment="" Address="" Check="&quot;apower&quot;:\v" Signed="true" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="1000" DestValHigh="1" DefVal="0" MinVal="-10000" MaxVal="10000" Unit="&lt;v.3&gt;kW" HintText=""/>
+</VirtualInUdp>
