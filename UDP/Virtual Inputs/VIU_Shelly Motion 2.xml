@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VirtualInUdp Title="Shelly Motion 2" Comment="" Address="192.168.123.45" Port="7123">
+	<Info templateType="1" minVersion="15020930"/>
+	<VirtualInUdpCmd Title="Movement" Comment="" Address="" Check="[0,6107,1]" Signed="true" Analog="false" SourceValLow="0" DestValLow="0" SourceValHigh="100" DestValHigh="100" DefVal="0" MinVal="-10000" MaxVal="10000" Unit="" HintText=""/>
+	<VirtualInUdpCmd Title="Temperature" Comment="" Address="" Check="[0,3101,\v" Signed="true" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="100" DestValHigh="100" DefVal="22" MinVal="-100" MaxVal="100" Unit="&lt;v.1&gt;°C" HintText=""/>
+	<VirtualInUdpCmd Title="Battery" Comment="" Address="" Check="[0,3111,\v" Signed="false" Analog="true" SourceValLow="0" DestValLow="0" SourceValHigh="100" DestValHigh="100" DefVal="50" MinVal="0" MaxVal="100" Unit="&lt;v&gt;%" HintText=""/>
+</VirtualInUdp>
