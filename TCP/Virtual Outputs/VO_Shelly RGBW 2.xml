@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VirtualOut Title="Shelly RGBW 2" Comment="" Address="http://192.168.123.45" CmdInit="" HintText="" CloseAfterSend="true" CmdSep=";">
+	<Info templateType="3" minVersion="15020930"/>
+	<VirtualOutCmd Title="Red" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/color/0?red=&lt;v&gt;" CmdOnHTTP="" CmdOnPost="" CmdOff="" CmdOffHTTP="" CmdOffPost="" CmdAnswer="" HintText="" Analog="true" Repeat="0" RepeatRate="0" SourceValHigh="10" DestValHigh="10"/>
+	<VirtualOutCmd Title="Green" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/color/0?green=&lt;v&gt;" CmdOnHTTP="" CmdOnPost="" CmdOff="" CmdOffHTTP="" CmdOffPost="" CmdAnswer="" HintText="" Analog="true" Repeat="0" RepeatRate="0" SourceValHigh="10" DestValHigh="10"/>
+	<VirtualOutCmd Title="Blue" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/color/0?blue=&lt;v&gt;" CmdOnHTTP="" CmdOnPost="" CmdOff="" CmdOffHTTP="" CmdOffPost="" CmdAnswer="" HintText="" Analog="true" Repeat="0" RepeatRate="0" SourceValHigh="10" DestValHigh="10"/>
+	<VirtualOutCmd Title="White" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/color/0?white=&lt;v&gt;" CmdOnHTTP="" CmdOnPost="" CmdOff="" CmdOffHTTP="" CmdOffPost="" CmdAnswer="" HintText="" Analog="true" Repeat="0" RepeatRate="0" SourceValHigh="10" DestValHigh="10"/>
+	<VirtualOutCmd Title="Relay" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/color/0?turn=on" CmdOnHTTP="" CmdOnPost="" CmdOff="/color/0?turn=off" CmdOffHTTP="" CmdOffPost="" CmdAnswer="" HintText="" Analog="false" Repeat="0" RepeatRate="0"/>
+</VirtualOut>
