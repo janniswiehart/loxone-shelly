@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VirtualOut Title="Shelly Plus Plug S" Comment="" Address="http://192.168.123.45" CmdInit="" HintText="" CloseAfterSend="true" CmdSep=";">
+	<Info templateType="3" minVersion="15020930"/>
+	<VirtualOutCmd Title="Relay" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/relay/0?turn=on" CmdOnHTTP="" CmdOnPost="" CmdOff="/relay/0?turn=off" CmdOffHTTP="" CmdOffPost="" CmdAnswer="" HintText="" Analog="false" Repeat="0" RepeatRate="0"/>
+</VirtualOut>
